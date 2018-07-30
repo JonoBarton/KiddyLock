@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core\Core.csproj", "{D84E8AE3-1652-4F63-90E3-13E34C39454D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KiddyLock.Api", "KiddyLock.Api\KiddyLock.Api.csproj", "{A94C470F-86DF-4B39-88EB-9D8C72B6C28E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KiddyLock.UI", "KiddyLock.UI\KiddyLock.UI.csproj", "{EB59FD90-B3B5-425B-BC54-28764CDDDE45}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D84E8AE3-1652-4F63-90E3-13E34C39454D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D84E8AE3-1652-4F63-90E3-13E34C39454D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D84E8AE3-1652-4F63-90E3-13E34C39454D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D84E8AE3-1652-4F63-90E3-13E34C39454D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A94C470F-86DF-4B39-88EB-9D8C72B6C28E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A94C470F-86DF-4B39-88EB-9D8C72B6C28E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A94C470F-86DF-4B39-88EB-9D8C72B6C28E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A94C470F-86DF-4B39-88EB-9D8C72B6C28E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB59FD90-B3B5-425B-BC54-28764CDDDE45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB59FD90-B3B5-425B-BC54-28764CDDDE45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB59FD90-B3B5-425B-BC54-28764CDDDE45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB59FD90-B3B5-425B-BC54-28764CDDDE45}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B4DB805E-0C37-437A-8693-F0F3DEFEE238}
+	EndGlobalSection
+EndGlobal
