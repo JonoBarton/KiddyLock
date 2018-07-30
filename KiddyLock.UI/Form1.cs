@@ -22,6 +22,11 @@ namespace KiddyLock.UI
         {
             var osUsers = UserLogic.GetOsUsers();
             var users = await UserLogic.GetUsers();
+            // do stuff
+            foreach (var user in osUsers)
+            {
+                
+            }
         }
     }
 }
