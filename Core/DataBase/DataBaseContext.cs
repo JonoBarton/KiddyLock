@@ -16,5 +16,6 @@ namespace Core.DataBase
         }
 
         public DbSet<User> Users { get; set; }
+        public DbSet<Subscriber> Subscribers { get; set; }
     }
 }
