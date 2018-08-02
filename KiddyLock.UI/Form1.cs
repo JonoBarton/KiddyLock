@@ -36,6 +36,7 @@ namespace KiddyLock.UI
         private void Form1_Closed(object sender, EventArgs e)
         {
             Application.ExitThread();
+            Application.Exit();
         }
 
         private async void Form1_Load(object sender, EventArgs e)
@@ -46,6 +47,7 @@ namespace KiddyLock.UI
             {
                 MessageBox.Show("Unable to authenticate");
             }
+            SubscriberImage.Load(_authResponse.UserInfo.Picture);
             MainPanel.Visible = true;
             Controls.Remove(wb);
         }
@@ -146,6 +148,11 @@ namespace KiddyLock.UI
         private void UsersButton_Click(object sender, EventArgs e)
         {
             GetUsers();
+        }
+
+        private void MainPanel_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }
