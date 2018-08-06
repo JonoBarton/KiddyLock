@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core\Core.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KiddyLock.Api", "KiddyLock.Api\KiddyLock.Api.csproj", "{A94C470F-86DF-4B39-88EB-9D8C72B6C28E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KiddyLock.UI", "KiddyLock.UI\KiddyLock.UI.csproj", "{EB59FD90-B3B5-425B-BC54-28764CDDDE45}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KiddyLock.UserInterface", "KiddyLock.UserInterface\KiddyLock.UserInterface.csproj", "{07D56DCA-E597-4F1E-8789-BA05F9995726}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +23,10 @@ Global
 		{A94C470F-86DF-4B39-88EB-9D8C72B6C28E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A94C470F-86DF-4B39-88EB-9D8C72B6C28E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A94C470F-86DF-4B39-88EB-9D8C72B6C28E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{EB59FD90-B3B5-425B-BC54-28764CDDDE45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EB59FD90-B3B5-425B-BC54-28764CDDDE45}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EB59FD90-B3B5-425B-BC54-28764CDDDE45}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EB59FD90-B3B5-425B-BC54-28764CDDDE45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07D56DCA-E597-4F1E-8789-BA05F9995726}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07D56DCA-E597-4F1E-8789-BA05F9995726}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07D56DCA-E597-4F1E-8789-BA05F9995726}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07D56DCA-E597-4F1E-8789-BA05F9995726}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
